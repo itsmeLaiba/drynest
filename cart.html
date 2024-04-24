@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>THE ZANooKh Style</title>
+        <link rel="Website icon" type="png" href="/E-commerce Website/images/logo.jpeg">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google Fonts Custom Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <!-- ------ Header Section Started From Here ------ -->
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="/E-commerce Website/images/logo.jpeg" width="105px"></a>
+                </div>
+                <nav>
+                    <ul id="menuItem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account-page.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+            </div>
+        </div>
+        <!-- --------cart items detail-------- -->
+       
+
+    <!-- -------------Footer Section Started From Here-------------- -->
+    <footer>
+        <div class="footer">
+            <div class="cntainer">
+                <div class="row">
+                   <div class="footer-col-1 col-md-4">
+                    <div class="logo"><img src="/E-commerce Website/images/logo.jpeg" alt="footer"  width="105px"></div><br><br>
+                    <h3>Dry Nest</h3>
+                   </div>
+                   <div class="footer-col-1 col-md-4">
+                    <h3>FOR CUSTOMERS</h3><br><br>
+                    <ul>
+                        <li>
+                            <a style="color:  beige" href="mailto:drynest1@gmail.com?subject=Subject%20Here&body=Hello%20World!"  target="_blank">
+                                Email:drynest1@gmail.com</a>
+                         </li><br><br>
+                        <li>Call us : +92-309-6337322</li><br><br>
+                        <li>WhatsApp : +92-309-6337322</li><br><br>
+                       
+                    </ul><br>
+            
+                   </div>
+                   <div class="footer-col-3 col-md-4">
+                    <h3>Policies</h3>
+                    <ul>
+                        <li>About us:</li><br><br>
+                        <li>Return and Exchange Policy:</li><br><br>
+                        <li>Privacy Policy:</li><br><br>
+                        <li>Cookies:</li><br><br>
+                    </ul><br>
+                   
+                   </div>
+                   <div class="footer-col-4 col-md-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li> <a style="color: beige;" href="https://www.facebook.com/profile.php?id=61553379974027&mibextid=ZbWKwL" target="_blank">Facebook</a></li> <br>
+                        <li><a style="color:  beige;" href="https://twitter.com/home?utm_source=liteAPK&utm_medium=shortcut&first_run=false" target="_blank">Twitter</a></li><br> 
+                        <li><a style="color:  beige;"href="https://www.instagram.com/dry.nest?igsh=MXZ0d2k0OXhpYjh1eg==" target="_blank">Instagram </a></li> <br>
+                        <li > <a style="color:  beige;"href="https://www.linkedin.com/in/drynest-dry-nest-a0a2442a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            LinkedIn</a></li><br>
+                    </ul>
+                   </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; DRY NEST <br>
+                    Manage by DRY NEST </p>
+                
+             </div>
+        </div>
+    </footer>
+<!-- ----------------------JS for Toggle Menu------------------------- -->
+<script>
+    var MenuItems = document.getElementById('menuItem');
+    MenuItems.style.maxHeight = "0px";
+    function menuToggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>

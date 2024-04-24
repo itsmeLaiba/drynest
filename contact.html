@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Nest</title>
+    <link rel="Website icon" type="png" href="/images/logo.jpeg">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Custom Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="/images/logo.jpeg" width="105px"></a>
+                </div>
+                <nav>
+                    <ul id="menuItem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account-page.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+            </div>
+        </header>
+        <div class="contct"  style="padding: 50px 0; background: radial-gradient(#fff,#dad3d3);">
+            <h1 class="contact" >Contact Us</h1>
+            <form class="contact-us-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="feedback" placeholder="Feedback" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="contact-us-shop-details">
+                <h2>Shop Details:</h2>
+                <p><b>Email:</b>  <a style="color:  rgb(104, 133, 214)" href="mailto:drynest1@gmail.com?subject=Subject%20Here&body=Hello%20World!"  target="_blank">
+                   drynest1@gmail.com</a>
+            </p>
+                <p><b>Phone Number:</b> +92 305 3400943</p>
+                <p><b>Address:</b> Jail Road, Faisalabad,Pakistan</p>
+                <h3>Location</h3>
+            </div>
+
+            <script>
+                function initMap() {
+                    var location = { lat: -34.397, lng: 150.644 };
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), { zoom: 8, center: location });
+                    var marker = new google.maps.Marker({ position: location, map: map });
+                }
+            </script>
+            <!-- You can replace the static image with a dynamic Google Map by using the Google Maps JavaScript API -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.3214225757265!2d73.06761257450422!3d31.432817051464337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922428dd241eb87%3A0x8c235bc01280e25b!2sUAF%20Clock%20Tower!5e0!3m2!1sen!2s!4v1704381263329!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    
+
+        <footer>
+            <div class="footer">
+                <div class="cntainer">
+                    <div class="row">
+                       <div class="footer-col-1 col-md-4">
+                        <div class="logo"><img src="/images/logo.jpeg" alt="footer"  width="105px"></div><br><br>
+                        <h3>Dry Nest</h3>
+                       </div>
+                       <div class="footer-col-1 col-md-4">
+                        <h3>FOR CUSTOMERS</h3><br><br>
+                        <ul>
+                            <li>
+                                <a style="color:  beige" href="mailto:drynest1@gmail.com?subject=Subject%20Here&body=Hello%20World!"  target="_blank">
+                                    Email:drynest1@gmail.com</a>
+                             </li><br><br>
+                            <li>Call us : +92-309-6337322</li><br><br>
+                            <li>WhatsApp : +92-309-6337322</li><br><br>
+                           
+                        </ul><br>
+                
+                       </div>
+                       <div class="footer-col-3 col-md-4">
+                        <h3>Policies</h3>
+                        <ul>
+                            <li>About us:</li><br><br>
+                            <li>Return and Exchange Policy:</li><br><br>
+                            <li>Privacy Policy:</li><br><br>
+                            <li>Cookies:</li><br><br>
+                        </ul><br>
+                       
+                       </div>
+                       <div class="footer-col-4 col-md-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li> <a style="color: beige;" href="https://www.facebook.com/profile.php?id=61553379974027&mibextid=ZbWKwL" target="_blank">Facebook</a></li> <br>
+                            <li><a style="color:  beige;" href="https://twitter.com/home?utm_source=liteAPK&utm_medium=shortcut&first_run=false" target="_blank">Twitter</a></li><br> 
+                            <li><a style="color:  beige;"href="https://www.instagram.com/dry.nest?igsh=MXZ0d2k0OXhpYjh1eg==" target="_blank">Instagram </a></li> <br>
+                            <li > <a style="color:  beige;"href="https://www.linkedin.com/in/drynest-dry-nest-a0a2442a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                LinkedIn</a></li><br>
+                        </ul>
+                       </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">&copy; DRY NEST <br>
+                        Manage by DRY NEST </p>
+        </div>
+                 </div>
+            </div>
+        </footer>
+</body>
+
+</html>
